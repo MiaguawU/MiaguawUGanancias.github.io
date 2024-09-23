@@ -8,21 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Horas trabajadas</h1></div>
+    </nav>
     <br>
-    <form method="get" name="registro" onsubmit="return val(this)" action="extra.html">
-        <label>Sueldo por hora</label>
+    <form class="c1" method="get" name="registro" onsubmit="return val(this)" action="extra.html">
+        <label class="tete">Sueldo por hora</label>
         <br>
-        <input class="" type="text" name="s" id="s">
+        <input class="contenedor" type="text" name="s" id="s">
         <br>
-        <label>Horas trabajadas (de una semana)</label>
+        <label class="tete">Horas trabajadas (de una semana)</label>
         <br>
-        <input class="" type="text" name="ht" id="ht">
-        <br>
+        <input class="contenedor" type="text" name="ht" id="ht">
         
-        <br>
-        <input class="" type="submit" id="enviar" value="Enviar">
-        <input class="" type="reset" id="reset" value="Reset">
+        <input class="bob" type="submit" id="enviar" value="Enviar">
+        <input class="bob" type="reset" id="reset" value="Reset">
         
     </form>
 </body>

@@ -8,31 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Registrarse</h1></div>
+    </nav>
     <br>
-    <form method="get" name="registro" onsubmit="return val(this)" action="reg.html">
-        <label>Nombre</label>
+    <form class="r" method="get" name="registro" onsubmit="return val(this)" action="reg.html">
+        <label class="tete">Nombre</label>
         <br>
-        <input class="" type="text" name="nom" id="nom">
+        <input class="contenedor" type="text" name="nom" id="nom">
         <br>
-        <label>Correo electronico</label>
+        <label class="tete">Correo electronico</label>
         <br>
-        <input class="" type="text" name="em" id="em">
+        <input class="contenedor" type="text" name="em" id="em">
         <br>
-        <label>Contraseña</label>
+        <label class="tete">Contraseña</label>
         <br>
-        <input class="" type="password" name="pass" id="pass">
+        <input class="contenedor" type="password" name="pass" id="pass">
         <br>
-        <label>Comentarios</label>
+        <label class="tete">Comentarios</label>
         <br>
-        <input class="" type="text" name="co" id="co">
+        <input class="contenedor" type="text" name="co" id="co">
         <br>
-        <label>Acepto las condiciones del servicio</label>
+        <label class="tete">Acepto las condiciones del servicio</label>
         <input class="cajas" type="checkbox" name="ser" value="ser"/>
         
         <br>
-        <input class="" type="submit" id="enviar" value="Enviar">
-        <input class="" type="reset" id="reset" value="Reset">
+        <input class="bob" type="submit" id="enviar" value="Enviar">
+        <input class="bob" type="reset" id="reset" value="Reset">
         
     </form>
 </body>

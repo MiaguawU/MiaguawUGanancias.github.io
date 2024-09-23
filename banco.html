@@ -8,16 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
-    <h1>Interés compuesto</h1>
-    <form method="get" name="registro" onsubmit="return ban(this)" action="banco.html">
-        <label>Capital a invertir</label>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Interés compuesto</h1></div>
+    </nav>
+    <div>
+    <form class="b" method="get" name="registro" onsubmit="return ban(this)" action="banco.html">
+        <label class="tete">Capital a invertir</label>
         <br>
-        <input class="" type="text" name="capital1" id="capital1"/>
+        <input class="contenedorB" type="text" name="capital1" id="capital1"/>
         <br>
-        <label>Porcentaje de interes por tiempo</label>
+        
+        <label class="tete">Porcentaje de interes por tiempo</label>
         <br>
-        <input class="" type="text" name="interes" id="interes" maxlength="3"/>
+        
+        <input class="contenedorB" type="text" name="interes" id="interes" maxlength="3"/>
         <label>
             <select id="tiempo1" name="tiempo1">
                 <option value="Ninguno">Ninguno</option>
@@ -26,9 +31,11 @@
             </select>
         </label>
         <br>
-        <label>Tiempo de inversión</label>
+        
+        <label class="tete">Tiempo de inversión</label>
         <br>
-        <input class="" type="text" name="tiempo" id="tiempo"/>
+        
+        <input class="contenedorB" type="text" name="tiempo" id="tiempo"/>
         <label>
             <select id="tiempo2" name="tiempo2">
                 <option value="Ninguno">Ninguno</option>
@@ -37,9 +44,10 @@
             </select>
         </label>
         <br>
-        <br>
-        <input class="" type="submit" id="enviar" value="Enviar">
-        <input class="" type="reset" id="reset" value="Reset">
+        
+        <input class="bob" type="submit" id="enviar" value="Enviar">
+        <input class="bob" type="reset" id="reset" value="Reset">
     </form>
+</div>
 </body>
 </html>

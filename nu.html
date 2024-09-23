@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Numeros</h1></div>
+    </nav>
+    <form class="n">
     <br>
-        <label>Escriba una oracion con numeros (uno, dos...)</label>
+        <label>Escriba una oracion con numeros</label>
         <br>
-        <input class="" type="text" name="nu" id="nu">
+        <label>(uno dos...)</label>
         <br>
+        <input class="contenedor" type="text" name="nu" id="nu">
         
-        <br>
-        <button onclick="letrasAnumeros()">Enviar</button>
+        <button class="bob" onclick="letrasAnumeros()">Enviar</button>
+    </form>
       
 </body>
 </html>

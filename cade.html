@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
-    <div class=""></div>
-        <h1>Eliminar etiquetas </h1>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Eliminar etiquetas</h1></div>
+    </nav>
+   
+        <label class="tete" for="cod">Ingrese el código HTML:</label>
+        <br>
+        <textarea id="cod" placeholder="Escriba el código HTML ..."></textarea>
         
-        <label for="cod">Ingrese el código HTML:</label>
-        <textarea id="cod" placeholder="Escribe el código HTML ..."></textarea>
-        
-        <button onclick="el()">Eliminar</button>
-        
+        <button class="pt" onclick="el()">Eliminar</button>
+        <br>
+        <br>
+        <br>
         <h2>Resultado:</h2>
         <pre id="res"></pre>
-    </div>
+    
 </body>
 </html>

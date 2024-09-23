@@ -8,35 +8,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Calificaciones</h1></div>
+    </nav>
+    
     <br>
-    <h2>Calificaciones:</h2>
-    <br>
-    <form method="get" name="registro" onsubmit="return cal(this)" action="cali.html">
-        <label>Primer parcial</label>
+    <form class="c2" method="get" name="registro" onsubmit="return cal(this)" action="cali.html">
+        <label class="tete">Primer parcial</label>
         <br>
-        <input class="" type="text" name="c1" id="c1" >
+        <input class="contenedor" type="text" name="c1" id="c1" >
         <br>
-        <label>Segundo parcial</label>
+        <label class="tete">Segundo parcial</label>
         <br>
-        <input class="" type="text" name="c2" id="c2">
+        <input class="contenedor" type="text" name="c2" id="c2">
         <br>
-        <label>Tercer parcial</label>
+        <label class="tete">Tercer parcial</label>
         <br>
-        <input class="" type="text" name="c3" id="c3">
+        <input class="contenedor" type="text" name="c3" id="c3">
         <br>
-        <label>Examen final</label>
+        <label class="tete">Examen final</label>
         <br>
-        <input class="" type="text" name="xf" id="xf">
+        <input class="contenedor" type="text" name="xf" id="xf">
         <br>
-        <label>Trabajo final</label>
+        <label class="tete">Trabajo final</label>
         <br>
-        <input class="" type="text" name="tf" id="tf">
+        <input class="contenedor" type="text" name="tf" id="tf">
         <br>
         
-        <br>
-        <input class="" type="submit" id="enviar" value="Enviar">
-        <input class="" type="reset" id="reset" value="Reset">
+        <input class="bob" type="submit" id="enviar" value="Enviar">
+        <input class="bob" type="reset" id="reset" value="Reset">
         
     </form>
 </body>

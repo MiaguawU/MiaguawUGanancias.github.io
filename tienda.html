@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Tienda</h1></div>
+    </nav>
     <br>
-    <form method="get" name="registro" onsubmit="return ti(this)" action="tienda.html">
-        <label>Total de compra</label>
+    <form class="t" method="get" name="registro" onsubmit="return ti(this)" action="tienda.html">
+        <label class="tete">Total de compra</label>
         <br>
-        <input class="" type="text" name="di" id="di">
+        <input class="contenedor" type="text" name="di" id="di">
         <br>
         
         <br>
-        <input class="" type="submit" id="enviar" value="Enviar">
-        <input class="" type="reset" id="reset" value="Reset">
+        <input class="bob" type="submit" id="enviar" value="Enviar">
+        <input class="bob" type="reset" id="reset" value="Reset">
         
     </form>
 </body>

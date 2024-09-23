@@ -1,36 +1,230 @@
-.inicio{
-    background-color: #BA84E4;
-    justify-content: center;
+.opCO{
     position: relative;
-    
-    left: 100px;
-    width:400px;
-    height: 700px;
+    left: 20px;
+    top: 35px;
 
 }
+.opCO1{
+    position: relative;
+    left: 460px;
+    bottom: 212px;
+}
+.opCO2{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+    
+}
+nav{
+    background-color: #BCA6D8;
+    height: 80px;
+}
+h1{
+    color: #3A3654;
+    position: relative;
+}
 
+
+a {
+    text-decoration: none;
+     
+  }
+  a:visited {
+    color: rgb(230, 221, 238);           
+  }
 .opciones{
     display: flex;
     position: relative;
     left: 60px;
-    background-color:#D9D9D9;
-    justify-content: right;
-    border-radius: 10px 0px 0px 10px;
+    background-color:#8987BF;
+    justify-content: center;
+    border-radius: 10px;
     width: 340px;
-    color:#a072c4;
+    border: 2px solid #605F7A;
+    color:#3A3654;
     height: 40px;
+    align-items: center;  
+}
+.opciones a{
+    padding: 10px;
+    color:white ; 
 }
 .hh{
     display: flex;
-    color: #D9D9D9;
     
+    width: 100%;
+    background-color: #5E4E73;
     justify-content: center;
     position: relative;
 }
+.hh h1{
+    color: white;
+}
 
 body{
-    background-color: #C1E7AA;
     font-family:Arial;
     font-weight: bold;
-    color: #8146AE;
+    color: #5E4E73;
+}
+.titulo{
+    position: relative;
+    left: 42%;
+    bottom: 25px;
+}
+.inicio{
+    position: relative;
+    left: 30px;
+    top: 27px;
+    color: #7269a5;
+    border: 2px solid #605F7A;
+    width: 90px;
+    border-radius: 10px;
+    height: 20px;
+    padding-left: 40px;
+    padding-top: 4px;
+    background-color: #D9CFFF;
+}
+.inicio a{
+    color: #7269a5;
+}
+form{
+    background-color: #D9CFFF;
+    border-radius: 10px;
+    border: 2px solid #605F7A;
+    padding: 30px;
+    width: 320px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    justify-content: center;
+}
+.b{
+    height: 320px;
+    top: 40px;
+}
+.r{
+    top: 40px;
+    height: 440px;
+}
+.c1{
+    height: 300px;
+}
+.t{
+    height: 200px;
+}
+.c2{
+    height: 450px;
+}
+.n{
+    top: 20px;
+    height: 250px;
+}
+.bob{
+    width: 80px;
+    height: 35px;
+    border: 2px solid #605F7A;
+    position: relative;
+    border-radius: 8px;
+    background-color: #8987BF;
+    top: 80px;
+    color: #3A3654;
+    font-weight: bold;
+    padding: 5px;
+}
+.contenedor{
+    width: 290px;
+    border: 2px solid #605F7A;
+    position: relative;
+    border-radius: 12px;
+    background-color: #8987BF;
+    top: 15px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    height: 17px;
+    margin-top: 20px;
+}
+.contenedorB{
+    width: 230px;
+    border: 2px solid #605F7A;
+    position: relative;
+    border-radius: 12px;
+    background-color: #8987BF;
+    top: 15px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    height: 17px;
+    margin-top: 20px;
+}
+select{
+    width: 30px;
+    border: 2px solid #605F7A;
+    position: relative;
+    border-radius: 12px;
+    background-color: #8987BF;
+    top: 16px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    height: 25px;
+    
+}
+select option:hover {
+    background-color: #605F7A; 
+}
+
+.tete{
+    position: relative;
+    top: 22px;
+}
+ 
+input[type="date"]{
+    border: 2px solid #605F7A;
+    position: relative;
+    border-radius: 12px;
+    background-color: #8987BF;
+    top: 15px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    margin-top: 20px;
+}
+input[type="checkbox"]{
+    border: 2px solid #605F7A;
+    position: relative;
+    background-color: #8987BF;
+    top: 22px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    margin-top: 20px;
+}
+.pt{
+    width: 80px;
+    height: 35px;
+    border: 2px solid #605F7A;
+    position: relative;
+    border-radius: 8px;
+    background-color: #8987BF;
+    color: white;
+    top: 40px;
+    font-weight: bold;
+    left: 10px;
+    padding: 5px;
+}
+textarea{
+    border: 2px solid #605F7A;
+    position: relative;
+    border-radius: 8px;
+    background-color: #8987BF;
+    top: 52px;
+    color: white;
+    padding: 5px;
+    outline: none;
+    height: 25px;
+    margin-top: 20px;
+}
+::placeholder{
+    color: white;
 }

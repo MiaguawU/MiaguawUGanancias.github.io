@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Comisiones</h1></div>
+    </nav>
     <br>
-    <form method="get" name="registro" onsubmit="return co(this)" action="comisiones.html">
-        <label>Sueldo base</label>
+    <form class="c1"  method="get" name="registro" onsubmit="return co(this)" action="comisiones.html">
+        <label class="tete">Sueldo base</label>
         <br>
-        <input class="" type="text" name="sueldo" id="sueldo">
+        <input class="contenedor" type="text" name="sueldo" id="sueldo">
         <br>
-        <label>Cantidad de comisiones</label>
+        <label class="tete">Cantidad de comisiones</label>
         <br>
-        <input class="" type="text" name="comi" id="comi">
+        <input class="contenedor" type="text" name="comi" id="comi">
         <br>
         <br>
-        <input class="" type="submit" id="enviar" value="Enviar">
-        <input class="" type="reset" id="reset" value="Reset">
+        <input class="bob" type="submit" id="enviar" value="Enviar">
+        <input class="bob" type="reset" id="reset" value="Reset">
         
     </form>
 </body>

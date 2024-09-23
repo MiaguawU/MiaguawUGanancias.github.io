@@ -8,14 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav><a href="index.html">Inicio</a></nav>
+    <nav>
+        <div class="inicio"><a href="index.html">Inicio</a> </div>
+        <div class="titulo"><h1>Calculadora de edad</h1></div>
+    </nav>
     <br>
-    <div class="">
-        <label for="dn">Ingrese su fecha de nacimiento:</label><br>
+    <form class="t">
+    
+        <label class="tete" for="dn">Ingrese su fecha de nacimiento:</label><br>
         <input type="date" id="dn" max="2024-09-21" min="1900-01-01">
         <br>
-        <button onclick="edad()">Enviar</button>
-    </div>
-    
+        <button class="bob" onclick="edad()">Enviar</button>
+   
+</form>
 </body>
 </html>
